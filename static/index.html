@@ -82,7 +82,7 @@ body {
 
             // Change this to sig4 long term.
             try {
-                const response = await fetch("http://127.0.0.1:8000/makeapassword", {
+                const response = await fetch("http://:8080/makeapassword", {
                     method: "POST",
                     headers: {
                         "Accept": "application/json",  // Equivalent to `-H 'accept: application/json'`
