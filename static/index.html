@@ -68,8 +68,7 @@ body {
             const username = document.getElementById("username").value.trim();
             const service = document.getElementById("service").value.trim();
             const responseDiv = document.getElementById("response");
-            const passwordurl = `${window.location.origin}/makepassword:8080`;
-
+            const passwordurl = `${window.location.origin}/makepassword`;
 
             if (!username || !service) {
                 responseDiv.innerHTML = "<p style='color: red;'>Both fields are required.</p>";
